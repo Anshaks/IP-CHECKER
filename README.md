@@ -40,7 +40,7 @@ No root, Magisk, or Shizuku is required.
 
 ---
 
-3. Main Menu
+3. #  Main Menu
 ```bash 
 [1] MINECRAFT LAN IP / DIRECT CONNECT
 [2] IP DETAILS / IP INPUT
@@ -48,7 +48,7 @@ No root, Magisk, or Shizuku is required.
 [4] ABOUT IP CHECKER
 [0] EXIT
 ```
-4. Show All IPs
+4. # Show All IPs
 ```bash
 Menu: [1] → [1]
 
@@ -64,9 +64,9 @@ Displays:
 
 Actions: [C] Copy LAN IP · [R] Refresh · [B] Back
 ```
-```bash
-5. Show LAN IP Only
 
+5. # Show LAN IP Only
+```bash
 Menu: [1] → [2]
 
 Shows only the single LAN IP relevant for Minecraft hosting.
@@ -74,9 +74,9 @@ Shows only the single LAN IP relevant for Minecraft hosting.
 · VERIFIED — role clearly determined
 · UNVERIFIED — role could not be determined (do not trust blindly)
 ```
-```bash 
-6. Minecraft Direct Connect
 
+6. # Minecraft Direct Connect
+```bash
 1. Open Minecraft → Play → Friends → Add Server
 2. Server Address: <LAN_IP>
 3. Port: enter manually (default 19132 for Bedrock, 25565 for Java)
@@ -85,9 +85,9 @@ Shows only the single LAN IP relevant for Minecraft hosting.
 ⚠️ IP CHECKER never invents or appends ports. You must type the port
 t yoursel
 ```
-```bash
-7. IP Details / IP Input
 
+7. # IP Details / IP Input
+```bash
 Menu: [2]
 
 · Accepts IPv4, IPv6, CIDR
@@ -111,7 +111,7 @@ Public IP shows
 ℹ️ Location is approximate. It cannot reveal an exact home address
 ```
 
-8. Settings
+8. # Settings
 
 Menu: [3]
 ```bash
@@ -132,7 +132,7 @@ Menu: [3]
 ```bash
 Saved to: ~/.ip_checker/config.json
 ```
-9. Troubleshooting
+9. # Troubleshooting
 
 Problem Fix
 ```bash
@@ -144,7 +144,7 @@ Public IP lookup fails      |Check internet / try again later                   
 No IP detected                   |Connect to Wi-Fi or enable Hotspot                        |
 ______________________________________________________________________ ___|  
 ```              
-10. Android Permission Limitations
+10. # Android Permission Limitations
 
 · ip addr / ip route may be restricted on some devices
 · dumpsys wifi output is often restricted without root — IP CHECKER
@@ -155,7 +155,7 @@ ______________________________________________________________________ ___|
 IP CHECKER never guesses an IP if the data is unavailable.
 
 
-11. Privacy & Security
+11. # Privacy & Security
 ```bash
 
 · ❌ No telemetry
@@ -167,7 +167,7 @@ IP CHECKER never guesses an IP if the data is unavailable.
 · ❌ No port scanning / no network attacks
 ```
 
-12. Limitations
+12. # Limitations
 ```bash
 · Public IP location data comes from third-party services and is
   approximate
@@ -200,8 +200,9 @@ Lightweight / stdlib only ✅
 README + install.sh + run.sh ✅
 ```
 
-Install 
+# Install 
 ```bash
-git clone
-cd 
+git clone https://github.com/KSURitam/IP-CHECKER.git
+cd IP-CHECKER 
 bash install.sh
+```
