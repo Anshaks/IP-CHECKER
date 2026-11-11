@@ -203,6 +203,10 @@ README + install.sh + run.sh ✅
 # Install 
 ```bash
 git clone https://github.com/KSURitam/IP-CHECKER.git
-cd IP-CHECKER 
+```
+```bash
+cd IP-CHECKER
+```
+```bash
 bash install.sh
 ```
