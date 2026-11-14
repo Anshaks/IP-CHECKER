@@ -3,6 +3,7 @@
 **Advanced Network & Minecraft LAN IP Utility for Android Termux**
 
 - **Developer:** KSURitam
+**Main Developers:** KSURitam & Anshaks
 - **Version:** 1.0.0
 - **Platform:** Android Termux (ARM64)
 - **Language:** Python 3
